@@ -4,7 +4,7 @@ namespace bang\env;
 class Env {
 
 	/**
-	 * 载入.env文件
+	 * 载入.env文件.
 	 * @param string $file
 	 * @throws \Exception
 	 */
