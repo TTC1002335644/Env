@@ -1,5 +1,5 @@
 <?php
-namespace bang\Env;
+namespace bang;
 
 class Env {
 
@@ -77,6 +77,5 @@ class Env {
 
 		return $result;
 	}
-	
 
 }
