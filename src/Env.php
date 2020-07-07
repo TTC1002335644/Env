@@ -1,5 +1,5 @@
 <?php
-namespace bang;
+namespace bang\env;
 
 class Env {
 
