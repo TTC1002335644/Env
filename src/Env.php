@@ -10,7 +10,7 @@ class Env {
 	 */
 	public static function load(string $file) {
 		if (is_file($file)) {
-			$env = parse_ini_file($file);
+			$env = parse_ini_file($file, true);
 			self::set($env);
 		} else {
 			throw new \Exception($file . " cannot found");
